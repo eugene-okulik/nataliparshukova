@@ -1,4 +1,4 @@
-a = 11
+a = 12
 b = 22
 
 print("summa a i b =", a + b)
