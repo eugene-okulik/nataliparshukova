@@ -9,20 +9,18 @@ print("словарь в начале: ", my_dict)
 print('последний элемент в tuple: ', my_dict['tuple'][-1])
 
 my_dict['list'].append(5.55)
-print ("добавлен элемент 5.55 в list: ", my_dict['list'])
+print("добавлен элемент 5.55 в list: ", my_dict['list'])
 my_dict['list'].pop(1)
-print ("удалён второй элемент из list: ", my_dict['list'])
+print("удалён второй элемент из list: ", my_dict['list'])
 
 my_dict['dict']['i am a tuple'] = 'the same'
-print ("добавлен элемент 'i am a tuple' с ключом в dict: ", my_dict['dict'])
+print("добавлен элемент 'i am a tuple' с ключом в dict: ", my_dict['dict'])
 my_dict['dict'].pop('three')
-print ("удален элемент из dict: ", my_dict['dict'])
+print("удален элемент из dict: ", my_dict['dict'])
 
 my_dict['set'].add('ccc')
 print("добавлен элемент 'ccc' в set:", my_dict['set'])
 my_dict['set'].remove('aaa')
-print("удален элемент 'aaa' из set: ",my_dict['set'])
+print("удален элемент 'aaa' из set: ", my_dict['set'])
 
 print("словарь после преобразований: ", my_dict)
-
-
