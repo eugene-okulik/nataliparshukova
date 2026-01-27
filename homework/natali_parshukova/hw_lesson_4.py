@@ -13,8 +13,8 @@ print("добавлен элемент 5.55 в list: ", my_dict['list'])
 my_dict['list'].pop(1)
 print("удалён второй элемент из list: ", my_dict['list'])
 
-my_dict['dict']['i am a tuple'] = 'the same'
-print("добавлен элемент 'i am a tuple' с ключом в dict: ", my_dict['dict'])
+my_dict['dict'][('i am a tuple',)] = 'the same'
+print("добавлен элемент ('i am a tuple',) с ключом в dict: ", my_dict['dict'])
 my_dict['dict'].pop('three')
 print("удален элемент из dict: ", my_dict['dict'])
 
