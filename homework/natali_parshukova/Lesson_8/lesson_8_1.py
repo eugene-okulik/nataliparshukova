@@ -10,4 +10,5 @@ def final_salary():
     result = salary + bonus
     print(f"salary={salary}, is_bonus={is_bonus}, bonus={bonus}, final_salary={result}")
 
+
 final_salary()
